@@ -5,86 +5,85 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Valentine</title>
 
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Itim&display=swap" rel="stylesheet">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
 body {
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
+    background: linear-gradient(180deg, #ffd6df, #ffeef2);
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(180deg, #ffd6df, #ffeef2);
     font-family: 'Poppins', sans-serif;
 }
 
 .card {
-    width: 340px;
-    background: #ffeef2;
-    border-radius: 40px;
-    padding: 40px 25px;
+    background: #fff0f4;
+    width: 320px;
+    padding: 30px 22px;
+    border-radius: 30px;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
 .heart-img {
-    width: 120px;
-    margin: 0 auto 10px;
+    width: 90px;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-family: 'Itim', cursive;
     color: #e75480;
     margin: 10px 0 0;
-    font-size: 32px;
 }
 
 .subtitle {
     color: #e75480;
-    font-size: 15px;
-    margin-bottom: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
-.message-box {
-    background: #ffffff;
-    border-radius: 25px;
-    padding: 18px;
+.message {
+    background: white;
+    padding: 16px;
+    border-radius: 16px;
     color: #c94b6a;
-    font-family: 'Itim', cursive;
-    font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
+    font-size: 16px;
 }
 
 .btn {
     display: inline-block;
-    padding: 14px 32px;
-    border-radius: 40px;
-    background: linear-gradient(90deg, #ff6a8f, #ff2f68);
+    padding: 14px 36px;
+    background: linear-gradient(90deg, #ff5f8a, #ff2f68);
     color: white;
     text-decoration: none;
+    border-radius: 999px;
     font-size: 16px;
-    font-weight: 500;
-    box-shadow: 0 8px 20px rgba(255,47,104,0.4);
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(255,47,104,0.45);
 }
 </style>
 </head>
 
 <body>
+    <div class="card">
+        <!-- ถ้ายังไม่มีรูป ให้ใช้ emoji แทนได้ -->
+        <!-- <div style="font-size:70px;">💘</div> -->
 
-<div class="card">
-    <img class="heart-img" src="https://i.imgur.com/6X4EJkT.png" alt="heart">
+        <img src="heart.png" class="heart-img" alt="heart">
 
-    <h1>My Valentine</h1>
-    <div class="subtitle">for the one I love</div>
+        <h1>My Valentine</h1>
+        <div class="subtitle">for the one I love</div>
 
-    <div class="message-box">
-        ของขวัญวาเลนไทน์ปีนี้<br>
-        คือการมี
+        <div class="message">
+            ของขวัญวาเลนไทน์ปีนี้<br>
+            คือการมีเธออยู่ข้างๆ
+            เหมือนทุกวัน
+        </div>
+
+        <a href="#" class="btn">ดูเรื่องราวของเรา</a>
     </div>
-
-    <a href="#" class="btn">ดูเรื่องราวของเรา</a>
-</div>
-
 </body>
 </html>
