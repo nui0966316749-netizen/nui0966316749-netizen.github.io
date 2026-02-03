@@ -1,66 +1,90 @@
+<!DOCTYPE html>
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Valentine</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Valentine</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Itim&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            background: linear-gradient(180deg, #ffd6df, #ffeef2);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-        }
+<style>
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #ffd6df, #ffeef2);
+    font-family: 'Poppins', sans-serif;
+}
 
-        .card {
-            background: #fff0f4;
-            width: 320px;
-            padding: 30px 20px;
-            border-radius: 30px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
+.card {
+    width: 340px;
+    background: #ffeef2;
+    border-radius: 40px;
+    padding: 40px 25px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
 
-        .heart {
-            font-size: 60px;
-            margin-bottom: 10px;
-        }
+.heart-img {
+    width: 120px;
+    margin: 0 auto 10px;
+}
 
-        h1 {
-            color: #e75480;
-            margin: 0;
-            font-weight: 600;
-        }
+h1 {
+    font-family: 'Itim', cursive;
+    color: #e75480;
+    margin: 10px 0 0;
+    font-size: 32px;
+}
 
-        .subtitle {
-            color: #e75480;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
+.subtitle {
+    color: #e75480;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
 
-        .message {
-            background: white;
-            padding: 15px;
-            border-radius: 15px;
-            color: #c94b6a;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
+.message-box {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 18px;
+    color: #c94b6a;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
-        .btn {
-            display: inline-block;
-            padding: 12px 25px;
-            background: linear-gradient(90deg, #ff5f8a, #ff2f68);
-            color: white;
-            text-decoration: none;
-            border-radius: 30px;
-            font-weight: 500;
-            box-shadow: 0 5px 15px rgba(255,47,104,0.4);
-        }
-    </style>
+.btn {
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #ff6a8f, #ff2f68);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(255,47,104,0.4);
+}
+</style>
 </head>
+
+<body>
+
+<div class="card">
+    <img class="heart-img" src="https://i.imgur.com/6X4EJkT.png" alt="heart">
+
+    <h1>My Valentine</h1>
+    <div class="subtitle">for the one I love</div>
+
+    <div class="message-box">
+        ของขวัญวาเลนไทน์ปีนี้<br>
+        คือการมี
+    </div>
+
+    <a href="#" class="btn">ดูเรื่องราวของเรา</a>
+</div>
+
+</body>
+</html>
