@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Valentine</title>
 
-<!-- Google Font -->
+<!-- โหลดฟอนต์จริง -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
 <style>
@@ -22,20 +22,22 @@ body {
 .card {
     background: #fff0f4;
     width: 320px;
-    padding: 30px 22px;
+    padding: 32px 24px;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
-.heart-img {
-    width: 90px;
+/* หัวใจ */
+.heart {
+    font-size: 72px;
     margin-bottom: 10px;
 }
 
 h1 {
     color: #e75480;
-    margin: 10px 0 0;
+    margin: 0;
+    font-weight: 600;
 }
 
 .subtitle {
@@ -47,7 +49,7 @@ h1 {
 .message {
     background: white;
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 18px;
     color: #c94b6a;
     margin-bottom: 22px;
     font-size: 16px;
@@ -69,10 +71,7 @@ h1 {
 
 <body>
     <div class="card">
-        <!-- ถ้ายังไม่มีรูป ให้ใช้ emoji แทนได้ -->
-        <!-- <div style="font-size:70px;">💘</div> -->
-
-        <img src="heart.png" class="heart-img" alt="heart">
+        <div class="heart">💘</div>
 
         <h1>My Valentine</h1>
         <div class="subtitle">for the one I love</div>
