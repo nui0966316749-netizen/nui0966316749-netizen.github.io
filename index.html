@@ -1,88 +1,101 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Valentine</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Valentine</title>
 
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Anuphan:wght@400;500&display=swap" rel="stylesheet">
 
-<style>
-body {
-    margin: 0;
-    height: 100vh;
-    background: linear-gradient(180deg, #ffd6df, #ffeef2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-.card {
-    background: #fff0f4;
-    width: 320px;
-    padding: 35px 25px;
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: 0 15px 40px rgba(255, 90, 130, 0.35);
-}
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(180deg, #ffd6df, #ffeef2);
+      font-family: 'Anuphan', sans-serif;
+    }
 
-.heart img {
-    width: 80px;
-    margin-bottom: 15px;
-}
+    .card {
+      width: 320px;
+      background: #fff1f4;
+      border-radius: 28px;
+      padding: 28px 22px 32px;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(255, 105, 135, 0.35);
+    }
 
-h1 {
-    color: #e75480;
-    margin: 0;
-    font-weight: 600;
-}
+    .card img {
+      width: 80px;
+      margin-bottom: 12px;
+    }
 
-.subtitle {
-    color: #e75480;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      color: #e84c6a;
+      font-size: 28px;
+      margin-bottom: 4px;
+    }
 
-.message {
-    background: white;
-    padding: 18px;
-    border-radius: 18px;
-    color: #c94b6a;
-    margin-bottom: 25px;
-    font-size: 16px;
-}
+    .subtitle {
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      color: #f08aa0;
+      margin-bottom: 18px;
+    }
 
-.btn {
-    display: inline-block;
-    padding: 14px 30px;
-    background: linear-gradient(90deg, #ff5f8a, #ff2f68);
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: 600;
-    box-shadow: 0 8px 20px rgba(255,47,104,0.5);
-}
-</style>
+    .message-box {
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 16px;
+      margin-bottom: 22px;
+      box-shadow: inset 0 0 0 rgba(0,0,0,0.05);
+      color: #e0617d;
+      font-size: 15px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #ff5f87, #e83f6f);
+      color: #fff;
+      font-size: 15px;
+      text-decoration: none;
+      box-shadow: 0 12px 25px rgba(232, 63, 111, 0.45);
+      transition: transform 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+  </style>
 </head>
 
 <body>
-    <div class="card">
-        <div class="heart">
-            <img src="https://i.imgur.com/WCzJDWz.png">
-        </div>
+  <div class="card">
+    <!-- เปลี่ยนลิงก์รูปตรงนี้ -->
+    <img src="https://i.imgur.com/8Km9tLL.png" alt="heart" />
 
-        <h1>My Valentine</h1>
-        <div class="subtitle">for the one I love</div>
+    <h1>My Valentine</h1>
+    <div class="subtitle">for the one I love</div>
 
-        <div class="message">
-            ของขวัญวาเลนไทน์ปีนี้<br>
-            คือการมีเธออยู่ข้าง ๆ<br>
-            เหมือนทุกวัน
-        </div>
-
-        <a href="#" class="btn">ดูเรื่องราวของเรา</a>
+    <div class="message-box">
+      ของขวัญวาเลนไทน์ปีนี้<br>
+      คือการมีเธออยู่ข้าง ๆ<br>
+      เหมือนทุกวัน
     </div>
+
+    <a class="btn" href="#">ดูเรื่องราวของเรา</a>
+  </div>
 </body>
 </html>
